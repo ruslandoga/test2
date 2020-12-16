@@ -13,7 +13,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ["Raleway", ...defaultTheme.fontFamily.sans],
+      // TODO https://github.com/google/fonts/issues/2688
+      // sans: ["Raleway", ...defaultTheme.fontFamily.sans],
       serif: ["Playfair Display", ...defaultTheme.fontFamily.serif],
     },
   },
