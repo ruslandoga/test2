@@ -1,0 +1,2 @@
+- if channel can't connect (refuse) -- redirect to login page
+-
