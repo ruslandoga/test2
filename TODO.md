@@ -1,2 +1,2 @@
 - if channel can't connect (refuse) -- redirect to login page
--
+- restore fb and goog and plausible tracking
