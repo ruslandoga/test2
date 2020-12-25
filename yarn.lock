@@ -988,7 +988,7 @@ acorn-walk@^7.0.0:
   resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-7.2.0.tgz#0de889a601203909b0fbe07b8938dc21d2e967bc"
   integrity sha512-OPdCF6GsMIP+Az+aWfAAOEt2/+iVDKE7oy6lJ098aoe59oAmK76qV6Gw60SbZ8jHuG2wH058GF4pLFbYamYrVA==
 
-acorn@^7.0.0:
+acorn@^7.0.0, acorn@^7.1.1:
   version "7.4.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
   integrity sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
@@ -1818,6 +1818,11 @@ http-link-header@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/http-link-header/-/http-link-header-1.0.3.tgz#abbc2cdc5e06dd7e196a4983adac08a2d085ec90"
   integrity sha512-nARK1wSKoBBrtcoESlHBx36c1Ln/gnbNQi1eB6MeTUefJIT3NvUOsV15bClga0k38f0q/kN5xxrGSDS3EFnm9w==
+
+imask@latest:
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/imask/-/imask-6.0.5.tgz#313250391bd957204cb4262426b54260929051ca"
+  integrity sha512-V9RVdbQsMxXLHK97FYR3wuHeyAc26q/0WeuRONRoqP4IFTKb472+akrFW/VPSBFYdB1PTI6impx1YgI/EDpWcQ==
 
 import-cwd@^3.0.0:
   version "3.0.0"
@@ -3335,6 +3340,13 @@ supports-color@^7.0.0, supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
+svelte-imask@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/svelte-imask/-/svelte-imask-1.2.0.tgz#3afba979e555dc200ac8abf6fc32dba3b0c59c38"
+  integrity sha512-5LNUhokQ3rG3jkjIxewI2VIxoOYdrBCcnLIUddA9qmIO9dhDH+Qs2FkKm7wRsZy3x6WbwOjB4EvEoTMR8KrFqg==
+  dependencies:
+    imask latest
+
 svelte-preprocess@^4.6.1:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.6.1.tgz#a7de4d91b32d5608b6637da960ee81e6089ae276"
@@ -3344,6 +3356,13 @@ svelte-preprocess@^4.6.1:
     "@types/sass" "^1.16.0"
     detect-indent "^6.0.0"
     strip-indent "^3.0.0"
+
+svelte-tags-input@^2.6.5:
+  version "2.6.5"
+  resolved "https://registry.yarnpkg.com/svelte-tags-input/-/svelte-tags-input-2.6.5.tgz#143c327cb1e8e3aa9a89e4069d01243338ebebfd"
+  integrity sha512-wY/6MuRf3bg9I0kiaXftWWpC2KWbBta3+/zcpGpfo0f7rDTV98cvwoaMr2dat5sTftS/mr0i/X2L0nIdsm5ApA==
+  dependencies:
+    acorn "^7.1.1"
 
 svelte@^3.17.3:
   version "3.31.0"

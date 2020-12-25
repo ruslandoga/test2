@@ -6,3 +6,4 @@
 - going back to form shows stale values (use stores to fix this)
 - setup helmet
 - interpolate domain and tracking scripts in template
+- https://observatory.mozilla.org/analyze/getsince.app

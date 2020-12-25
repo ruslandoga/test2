@@ -3,8 +3,8 @@ FROM mhart/alpine-node:15
 WORKDIR /app
 
 COPY package.json .
-COPY package-lock.json .
-RUN npm ci --prod
+COPY yarn.lock .
+RUN yarn install --frozen-lockfile
 
 COPY static static
 COPY __sapper__ __sapper__
