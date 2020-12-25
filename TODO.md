@@ -1,0 +1,8 @@
+- if channel can't connect (refuse) -- redirect to login page
+- fetch /me from backend and do redirects there
+- restore fb and goog and plausible tracking
+- redirect from /auth if already authed
+- need to be able to replace and remove and move photos during onboarding
+- going back to form shows stale values (use stores to fix this)
+- setup helmet
+- interpolate domain and tracking scripts in template
