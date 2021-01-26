@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Since / Policy</title>
+</svelte:head>
+
 <article class="py-8 mx-auto prose">
   <strong>Privacy Policy</strong>
   <p>
