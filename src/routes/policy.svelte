@@ -27,12 +27,7 @@
   </p>
   <p><strong>Information Collection and Use</strong></p>
   <p>
-    For a better experience, while using our Service, I may require you to
-    provide us with certain personally identifiable information, including but
-    not limited to Mobile phone number, name, gender, photos, date of birth,
-    details on personality, details on lifestyle, details on interests, other
-    details about user. The information that I request will be retained on your
-    device and is not collected by me in any way.
+    For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to mobile phone number, name, gender, photos, date of birth, details on personality, details on lifestyle, details on interests, other details about user. The information that I request will be collected on my backend service with the sole purpose of providing the Service to the users and will not be used for any other purposes.
   </p>
   <!---->
   <p><strong>Log Data</strong></p>
