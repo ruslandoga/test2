@@ -94,7 +94,8 @@
       class="w-full h-14 px-2 transition duration-150 border-2 rounded-full sm:px-4 sm:w-1/2 bg-black text-white border-black {canSubmit
         ? ''
         : 'cursor-not-allowed opacity-25'}"
-      disabled={!canSubmit}>
+      disabled={!canSubmit}
+    >
       {#if shared === true}
         👍
       {:else if shared === "in-progress"}
@@ -104,7 +105,7 @@
   </div>
   <div class="max-w-xs px-4 mx-auto sm:max-w-sm md:max-w-md">
     <span class="text-sm leading-3 text-gray-400"
-      >* мы отправим ссылку на приложение в январе 2021 г.</span
+      >* мы отправим ссылку на приложение в феврале 2021 г.</span
     >
   </div>
 </form>
