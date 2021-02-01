@@ -3,7 +3,8 @@
 </svelte:head>
 
 <article class="py-8 mx-auto prose">
-  <strong>Privacy Policy</strong>
+  <h2>Privacy Policy</h2>
+
   <p>
     Ruslan Doga built the Since app as a Free app. This SERVICE is provided by
     Ruslan Doga at no cost and is intended for use as is.
@@ -27,7 +28,13 @@
   </p>
   <p><strong>Information Collection and Use</strong></p>
   <p>
-    For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to mobile phone number, name, gender, photos, date of birth, details on personality, details on lifestyle, details on interests, other details about user. The information that I request will be collected on my backend service with the sole purpose of providing the Service to the users and will not be used for any other purposes.
+    For a better experience, while using our Service, I may require you to
+    provide us with certain personally identifiable information, including but
+    not limited to mobile phone number, name, gender, photos, date of birth,
+    details on personality, details on lifestyle, details on interests, other
+    details about user. The information that I request will be collected on my
+    backend service with the sole purpose of providing the Service to the users
+    and will not be used for any other purposes.
   </p>
   <!---->
   <p><strong>Log Data</strong></p>
